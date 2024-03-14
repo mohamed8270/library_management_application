@@ -27,7 +27,7 @@ class _RequestDetailsProcessPageState extends State<RequestDetailsProcessPage> {
   openwhatsapp() async {
     // var whatsapp = "";
     var message =
-        '${studentBookRequest.allData[widget.id]["studentbookname"].toString()}\n${studentBookRequest.allData[widget.id]["studentbookcode"].toString()}\n${studentBookRequest.allData[widget.id]["studentbookpublication"].toString()}\nBooks are available for your request';
+        '${studentBookRequest.allData[widget.id]["studentbookname"].toString()}\n${studentBookRequest.allData[widget.id]["studentbookcode"].toString()}\n${studentBookRequest.allData[widget.id]["studentbookpublication"].toString()}\nBooks are available for your request \n\n*Fine amount will be charged, If the due date is exceeded*';
     var studentNumber =
         '+91${studentBookRequest.allData[widget.id]["studentwhatsapp"].toString()}';
     var whatsappurlAndroid =
